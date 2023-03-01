@@ -24,12 +24,12 @@ export const Card: React.FC<CardProps> = ({
       {icon ? (
         <div className="header-and-icon">
           <div style={{ backgroundImage: `url(${icon}` }} />
-          <a className="position" href={url}>
+          <a className="position" href={url} target="_blank" rel="noreferrer">
             {header} <img src={arrow} alt="arrow" />
           </a>
         </div>
       ) : (
-        <a className="position" href={url}>
+        <a className="position" href={url} target="_blank" rel="noreferrer">
           {header} <img src={arrow} alt="arrow" />
         </a>
       )}
