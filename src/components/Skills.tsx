@@ -12,7 +12,7 @@ const skills: string[] = [
   "Sass",
   "Backbone",
   "styled components",
-  "Bootstrap",
+  "Tailwind",
 ];
 
 export const Skills: React.FC = () => {
