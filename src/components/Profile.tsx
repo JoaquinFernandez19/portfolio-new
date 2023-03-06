@@ -19,11 +19,11 @@ export const Profile: React.FC = () => {
 
         <p>
           I'm Joaquin. I build dynamic, creative products and focus on intuitive
-          experiences that grow based on user metrics. I deliver high-quality
-          code and constantly explore new tools to make it better. I'm
-          passionate about learning and solving complex problems with creative
-          solutions. My commitment to delivering exceptional products is driven
-          by my passion for coding and eagerness to learn.
+          experiences. I deliver high-quality code and constantly explore new
+          tools to make it better. I'm passionate about learning and solving
+          complex problems with creative solutions. My commitment to delivering
+          exceptional products is driven by my passion for coding and eagerness
+          to learn. I'm also pretty funny i promise.
         </p>
       </div>
     </>
