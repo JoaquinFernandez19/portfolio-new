@@ -3,6 +3,7 @@ import alliedLogo from "../img/allied.png";
 import uskglogo from "../img/uskg.png";
 import venezianoLogo from "../img/veneziano.png";
 import tomsLogo from "../img/toms.png";
+import pokecollect from "../img/pokecollect.png";
 import { Card, CardProps } from "./Card";
 const projects: CardProps[] = [
   {
@@ -38,23 +39,48 @@ const projects: CardProps[] = [
       "Japanese company that produces and import t-shirts and other clothing.",
   },
 ];
+const sideProjects: CardProps[] = [
+  {
+    date: "2023",
+    header: "Pokecollect WIP",
+    url: "https://another-pokedex-six.vercel.app/",
+    icon: pokecollect,
+    description: "Browser gachapon game to collect random pokemons.",
+  },
+];
 projects.reverse();
 export const Projects: React.FC = () => {
   return (
-    <div className="projects ">
-      <p className="h section-title">Developed</p>
+    <>
+      <div className="projects">
+        <p className="h section-title">Side Projects</p>
+        {sideProjects.map(({ date, header, url, icon, description }) => {
+          return (
+            <Card
+              date={date}
+              header={header}
+              url={url}
+              icon={icon}
+              description={description}
+            />
+          );
+        })}
+      </div>
+      <div className="projects ">
+        <p className="h section-title">Developed</p>
 
-      {projects.map(({ date, header, url, icon, description }) => {
-        return (
-          <Card
-            date={date}
-            header={header}
-            url={url}
-            icon={icon}
-            description={description}
-          />
-        );
-      })}
-    </div>
+        {projects.map(({ date, header, url, icon, description }) => {
+          return (
+            <Card
+              date={date}
+              header={header}
+              url={url}
+              icon={icon}
+              description={description}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 };
