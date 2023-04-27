@@ -13,6 +13,9 @@ const skills: string[] = [
   "Backbone",
   "styled components",
   "Tailwind",
+  "SQL",
+  "MongoDB",
+  "Firebase",
 ];
 
 export const Skills: React.FC = () => {
