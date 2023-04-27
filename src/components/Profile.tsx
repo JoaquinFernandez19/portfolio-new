@@ -11,7 +11,7 @@ export const Profile: React.FC = () => {
         ></div>
         <div>
           <h1>Joaquin Fernandez</h1>
-          <p>Product-focused Frontend Developer</p>
+          <p>Fullstack Developer</p>
         </div>
       </div>
       <div className="profile-about">
