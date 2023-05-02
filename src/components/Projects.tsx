@@ -43,7 +43,7 @@ const sideProjects: CardProps[] = [
   {
     date: "2023",
     header: "Pokecollect WIP",
-    url: "https://another-pokedex-six.vercel.app/",
+    url: "https://pokecollect.vercel.app/",
     icon: pokecollect,
     description: "Browser gachapon game to collect random pokemons.",
   },
