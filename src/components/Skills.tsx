@@ -1,21 +1,24 @@
-import React from "react";
+import React from 'react';
 
 const skills: string[] = [
-  "TypeScript",
-  "React",
-  "Redux",
-  "JavaScript",
-  "Next.js",
-  "Docker",
-  "Node",
-  "Express.js",
-  "Sass",
-  "Backbone",
-  "styled components",
-  "Tailwind",
-  "SQL",
-  "MongoDB",
-  "Firebase",
+  'TypeScript',
+  'React',
+  'Redux',
+  'JavaScript',
+  'Next.js',
+  'Docker',
+  'Node',
+  'Express.js',
+  'Sass',
+  'Backbone',
+  'styled components',
+  'Tailwind',
+  'SQL',
+  'MongoDB',
+  'Firebase',
+  'Fastify',
+  'Prisma',
+  'AWS',
 ];
 
 export const Skills: React.FC = () => {

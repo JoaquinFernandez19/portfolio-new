@@ -1,5 +1,5 @@
-import React from "react";
-import { Card } from "./Card";
+import React from 'react';
+import { Card } from './Card';
 
 interface Experience {
   year: string;
@@ -11,12 +11,20 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    year: "2020 - present",
-    position: "Senior Javascript Developer - SuiteDB",
-    url: "http://www.suitedb.com/",
+    year: '2023 - Present',
+    position: 'Fullstack Developer - Fintech Startup (Stealth)',
+    url: '#',
     description:
-      "As a Fullstack Developer, I managed multiple ecommerce site projects and contributed to web-based solutions. As a team lead, I successfully delivered creator tools and e-commerce app with a team of five engineers. With 3 years of experience in React and Typescript, I have a strong understanding of frontend development, software engineering, and web application development, all crucial for project success and improving user experience.",
-    tech: ["JavaScript", "TS", "React", "Sass", "Backbone"],
+      'Currently working as a fullstack developer in an fast paced environment with an small team and direct implementation of ideas.',
+    tech: ['Fastify', 'TS', 'Node', 'Next.js', 'AWS', 'MySQL', 'Prisma'],
+  },
+  {
+    year: '2020 - 2023',
+    position: 'Senior Javascript Developer - SuiteDB',
+    url: 'http://www.suitedb.com/',
+    description:
+      'As a Fullstack Developer, I managed multiple ecommerce site projects and contributed to web-based solutions. As a team lead, I successfully delivered creator tools and e-commerce apps.',
+    tech: ['JavaScript', 'TS', 'React', 'Sass', 'Backbone'],
   },
 ];
 
