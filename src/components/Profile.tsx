@@ -1,5 +1,5 @@
-import React from "react";
-import avatar from "../img/avatar.jpeg";
+import React from 'react';
+import avatar from '../img/avatar.jpeg';
 export const Profile: React.FC = () => {
   return (
     <>
@@ -11,7 +11,7 @@ export const Profile: React.FC = () => {
         ></div>
         <div>
           <h1>Joaquin Fernandez</h1>
-          <p>Fullstack Developer</p>
+          <p>Full Stack Developer</p>
         </div>
       </div>
       <div className="profile-about">

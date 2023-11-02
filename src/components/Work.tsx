@@ -12,10 +12,10 @@ interface Experience {
 const experiences: Experience[] = [
   {
     year: '2023 - Present',
-    position: 'Fullstack Developer - Fintech Startup (Stealth)',
-    url: '#',
+    position: 'Full Stack Developer - Brinta',
+    url: 'http://www.brinta.com/',
     description:
-      'Currently working as a fullstack developer in an fast paced environment with an small team and direct implementation of ideas.',
+      'Currently working as a full stack developer in an fast paced fintech startup.',
     tech: ['Fastify', 'TS', 'Node', 'Next.js', 'AWS', 'MySQL', 'Prisma'],
   },
   {
@@ -23,7 +23,7 @@ const experiences: Experience[] = [
     position: 'Senior Javascript Developer - SuiteDB',
     url: 'http://www.suitedb.com/',
     description:
-      'As a Fullstack Developer, I managed multiple ecommerce site projects and contributed to web-based solutions. As a team lead, I successfully delivered creator tools and e-commerce apps.',
+      'As a Full Stack Developer, I managed multiple ecommerce site projects and contributed to web-based solutions. As a team lead, I successfully delivered creator tools and e-commerce apps.',
     tech: ['JavaScript', 'TS', 'React', 'Sass', 'Backbone'],
   },
 ];

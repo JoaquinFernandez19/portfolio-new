@@ -1,51 +1,66 @@
-import React from "react";
-import alliedLogo from "../img/allied.png";
-import uskglogo from "../img/uskg.png";
-import venezianoLogo from "../img/veneziano.png";
-import tomsLogo from "../img/toms.png";
-import pokecollect from "../img/pokecollect.png";
-import { Card, CardProps } from "./Card";
+import React from 'react';
+import alliedLogo from '../img/allied.png';
+import uskglogo from '../img/uskg.png';
+import venezianoLogo from '../img/veneziano.png';
+import tomsLogo from '../img/toms.png';
+import pokecollect from '../img/pokecollect.png';
+import casitaLemon from '../img/casitaLemon.png';
+import engine from '../img/engine.png';
+import { Card, CardProps } from './Card';
 const projects: CardProps[] = [
   {
-    date: "2021",
-    header: "Allied Maker ",
-    url: "https://www.alliedmaker.com/",
+    date: '2021',
+    header: 'Allied Maker ',
+    url: 'https://www.alliedmaker.com/',
     icon: alliedLogo,
-    description: "Handcrafted lighting fixtures based in New York.",
+    description: 'Handcrafted lighting fixtures based in New York.',
   },
 
   {
-    date: "2021",
-    header: "U.S. Kids Golf ",
-    url: "https://www.uskidsgolf.com/",
+    date: '2021',
+    header: 'U.S. Kids Golf ',
+    url: 'https://www.uskidsgolf.com/',
     icon: uskglogo,
     description:
-      "U.S. Kids Golf is a United States-based company specializing in serving young players in the sport of golf.",
+      'U.S. Kids Golf is a United States-based company specializing in serving young players in the sport of golf.',
   },
   {
-    date: "2022",
-    header: "Veneziano ",
-    url: "https://venezianocoffee.com.au/",
+    date: '2022',
+    header: 'Veneziano ',
+    url: 'https://venezianocoffee.com.au/',
     icon: venezianoLogo,
     description:
-      "Veneziano Coffee Roasters from Melbourne provide specialty coffee beans to cafes across Australia.",
+      'Veneziano Coffee Roasters from Melbourne provide specialty coffee beans to cafes across Australia.',
   },
   {
-    date: "2023",
-    header: "TOMSWear",
-    url: "https://shop.tomswear.com/front/app/common/login/",
+    date: '2023',
+    header: 'TOMSWear',
+    url: 'https://shop.tomswear.com/front/app/common/login/',
     icon: tomsLogo,
     description:
-      "Japanese company that produces and import t-shirts and other clothing.",
+      'Japanese company that produces and import t-shirts and other clothing.',
   },
 ];
 const sideProjects: CardProps[] = [
   {
-    date: "2023",
-    header: "Pokecollect WIP",
-    url: "https://pokecollect.vercel.app/",
+    date: 'Current',
+    header: '2D Game Engine',
+    icon: engine,
+    description: 'Working in a 2D Game Engine written in C++ and Lua.',
+  },
+  {
+    date: '2023',
+    header: 'Casita Lemon',
+    url: 'https://casita-lemon.vercel.app/',
+    icon: casitaLemon,
+    description: 'Home manager for the all the members of my familiy.',
+  },
+  {
+    date: '2023',
+    header: 'Pokecollect WIP',
+    url: 'https://pokecollect.vercel.app/',
     icon: pokecollect,
-    description: "Browser gachapon game to collect random pokemons.",
+    description: 'Browser gachapon game to collect random pokemons.',
   },
 ];
 projects.reverse();

@@ -1,11 +1,11 @@
-import React from "react";
-import arrow from "../img/arrow-link.svg";
+import React from 'react';
+import arrow from '../img/arrow-link.svg';
 
 export interface CardProps {
   date: string;
   icon?: string;
   description?: string;
-  url: string;
+  url?: string;
   tech?: string[];
   header: string;
 }
@@ -19,13 +19,13 @@ export const Card: React.FC<CardProps> = ({
   header,
 }) => {
   return (
-    <div className={icon ? "card card-w-icon" : "card"}>
+    <div className={icon ? 'card card-w-icon' : 'card'}>
       <p className="year grey">{date}</p>
       {icon ? (
         <div className="header-and-icon">
           <div style={{ backgroundImage: `url(${icon}` }} />
           <a className="position" href={url} target="_blank" rel="noreferrer">
-            {header} <img src={arrow} alt="arrow" />
+            {header} {url && <img src={arrow} alt="arrow" />}
           </a>
         </div>
       ) : (
