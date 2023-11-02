@@ -1,21 +1,21 @@
-import React from "react";
-import { Card } from "./Card";
+import React from 'react';
+import { Card } from './Card';
 
 const links: { page: string; url: string; urlText: string }[] = [
   {
-    page: "Linkedin",
-    url: "https://www.linkedin.com/in/joaqu%C3%ADn-fernandez-rosso-b5973016b/",
-    urlText: "My linkedin :)",
+    page: 'Linkedin',
+    url: 'https://www.linkedin.com/in/joaquin-fernandez-rosso/',
+    urlText: 'My linkedin :)',
   },
   {
-    page: "Github",
-    url: "https://github.com/JoaquinFernandez19",
-    urlText: "JoaquinFernandez19",
+    page: 'Github',
+    url: 'https://github.com/JoaquinFernandez19',
+    urlText: 'JoaquinFernandez19',
   },
   {
-    page: "Gmail",
-    url: "mailto:xcopako@gmail.com",
-    urlText: "xcopako@gmail.com",
+    page: 'Gmail',
+    url: 'mailto:joaquinfdev@gmail.com',
+    urlText: 'joaquinfdev@gmail.com',
   },
 ];
 
