@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: white;
 }
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
 :root {
   --bg-color: black;
@@ -56,11 +56,11 @@ p.grey,
 .card {
   display: grid;
   grid-template-columns: 120px 1fr;
-  grid-template-rows: 25px 1fr 25px;
+  grid-template-rows: 25px 1fr auto;
   row-gap: 10px;
   margin-top: 10px;
   @media (max-width: 500px) {
-    grid-template-rows: 45px 1fr 25px;
+    grid-template-rows: 45px 1fr auto;
   }
   .position {
     grid-row: 1/2;
