@@ -5,6 +5,7 @@ import venezianoLogo from '../img/veneziano.png';
 import tomsLogo from '../img/toms.png';
 import pokecollect from '../img/pokecollect.png';
 import casitaLemon from '../img/casitaLemon.png';
+import brintaLogo from '../img/brinta-logo.png';
 import engine from '../img/engine.png';
 import { Card, CardProps } from './Card';
 const projects: CardProps[] = [
@@ -40,6 +41,13 @@ const projects: CardProps[] = [
     description:
       'Japanese company that produces and import t-shirts and other clothing.',
   },
+  {
+    date: '2024',
+    header: 'Brinta Dashboard',
+    url: 'https://dashboard.brinta.com/',
+    icon: brintaLogo,
+    description: 'Filing automation and tax calculation dashboard.',
+  },
 ];
 const sideProjects: CardProps[] = [
   {
@@ -67,9 +75,10 @@ projects.reverse();
 export const Projects: React.FC = () => {
   return (
     <>
-      <div className="projects">
-        <p className="h section-title">Side Projects</p>
-        {sideProjects.map(({ date, header, url, icon, description }) => {
+      <div className="projects ">
+        <p className="h section-title">Developed</p>
+
+        {projects.map(({ date, header, url, icon, description }) => {
           return (
             <Card
               date={date}
@@ -81,10 +90,9 @@ export const Projects: React.FC = () => {
           );
         })}
       </div>
-      <div className="projects ">
-        <p className="h section-title">Developed</p>
-
-        {projects.map(({ date, header, url, icon, description }) => {
+      <div className="projects">
+        <p className="h section-title">Side Projects</p>
+        {sideProjects.map(({ date, header, url, icon, description }) => {
           return (
             <Card
               date={date}
