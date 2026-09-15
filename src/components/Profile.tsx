@@ -18,11 +18,7 @@ export const Profile: React.FC = () => {
         <p className="h section-title">About</p>
 
         <p>
-          Hi, I'm Joaquin. I enjoy creating innovative and user-friendly
-          products using high-quality code. I'm always exploring new tools to
-          improve my work and I love to learn and solve complex problems in
-          unique ways. I'm very committed to delivering exceptional products and
-          I also have a good sense of humor.
+          I like to create stuff and solve problems. Videogames and systems :)
         </p>
       </div>
     </>
